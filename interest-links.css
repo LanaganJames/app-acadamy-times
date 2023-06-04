@@ -1,0 +1,95 @@
+.interest{
+    display: grid;
+    grid-template-columns: 8% 15% 8% 15% 8% 17% 7% 7% 8% 7%;
+    grid-template-rows: 20px 40px 20px;
+    font-size: 12px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: black solid 3px;
+    border-bottom: black solid 3px;
+}
+.interest > h2{
+    font-weight: 750;
+}
+.interest > img{
+    width: 80px;
+    justify-self: center;
+
+}
+.dogimg{
+    grid-column: 1;
+    grid-row: 1/span3;
+    align-self: center;
+}
+.dogdis{
+    grid-column: 2;
+    grid-row: 2;
+}
+.catimg{
+    grid-column: 3;
+    grid-row: 1/span3;
+    align-self: center;
+}
+.catdis{
+    grid-column: 4;
+    grid-row: 2;
+}
+.plugimg{
+    grid-column: 5;
+    grid-row: 1/span3;
+    align-self: center;
+}
+.plugdis{
+    grid-column: 6;
+    grid-row: 2;
+}
+.aao{
+    align-self: center;
+}
+.aaonum{
+    grid-column: 8;
+    grid-row: 1;
+    color: green;
+    align-self: center;
+}
+.swe{
+    grid-column: 7;
+    grid-row: 2;
+    align-self: center;
+}
+.swenum{
+    grid-column: 8;
+    grid-row: 2;
+    color: green;
+    align-self: center;
+}
+.cat{
+    grid-column: 7;
+    grid-row: 3;
+    align-self: center;
+}
+.catnum{
+    grid-column: 8;
+    grid-row: 3;
+    color: green;
+    align-self: center;
+}
+.sunimg{
+    grid-column: 9;
+    grid-row: 1/span3;
+    align-self: center;
+}
+.temp{
+    grid-column: 10;
+    grid-row: 1/span3;
+    align-self: center;
+    font-weight: 900;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .interest{
+        display: none;
+    }
+}

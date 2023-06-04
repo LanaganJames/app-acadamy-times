@@ -1,0 +1,208 @@
+.middle{
+    display: grid;
+    grid-template-columns: 25% 45% 15% 15%;
+    grid-template-rows: 70px 150px 350px 70px 70px 70px 70px;
+}
+.heading{
+    grid-column: 1/span2;
+    grid-row: 1;
+    font-size: 2vw;
+    font-weight: 800;
+    line-height: 70px;
+}
+h4{
+    color: rgba(148, 148, 148, 0.6);
+    margin: 0;
+    padding-bottom: 10px;
+}
+h5{
+    margin: 0;
+}
+.sectone{
+    grid-column: 1;
+    grid-row: 2;
+}
+.sectonepar{
+    list-style-type: disc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.sectonepar1{
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.sectonepar2{
+    line-height: 20px;
+    padding-bottom: 20px;
+    line-height: 20px;
+}
+.comments{
+    color: blue;
+}
+.sectvid{
+    grid-column: 2;
+    grid-row: 2;
+}
+iframe{
+    width: 100%;
+    height: 300px;
+    padding-bottom: 20px;
+    padding-top: 5%;
+}
+.warning{
+    padding-left: 12%;
+}
+.secttwo{
+    grid-column: 3/span2;
+    grid-row: 1/span2;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.secttwopar{
+    line-height: 20px;
+}
+.sectthree{
+    grid-column: 3/span2;
+    grid-row: 3;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.sectthreepar{
+    line-height: 20px;
+}
+.opinions{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: xx-large;
+    font-weight: 600;
+}
+.secttwopar{
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.operations{
+    font-size: 10px;
+}
+.office{
+    width: 90%;
+    padding-bottom: 10px;
+}
+.sectthreepar{
+    line-height: 20px;
+    padding-bottom: 10px;
+}
+.sectfour{
+    grid-column: 1;
+    grid-row: 4/7;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+}
+.sectfourpar{
+    line-height: 20px;
+}
+.sectfive{
+    grid-column: 2;
+    grid-row: 4/7;
+    border-bottom: black solid 2px;
+    border-top: black solid 2px;
+}
+.sectfivepar{
+    line-height: 20px;
+}
+.sectsix{
+    grid-column: 3;
+    grid-row: 4;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.sectseven{
+    grid-column: 3;
+    grid-row: 5;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.secteight{
+    grid-column: 3;
+    grid-row: 6;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.sectnine{
+    grid-column: 3;
+    grid-row: 7;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.sectten{
+    grid-column: 4;
+    grid-row: 4;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.secteleven{
+    grid-column: 4;
+    grid-row: 5;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.secttwelve{
+    grid-column: 4;
+    grid-row: 6;
+    border-top: rgba(148, 148, 148, 0.6) solid 1px;
+    border-left: rgba(148, 148, 148, 0.6) solid 1px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+@media only screen and (max-width: 1200px) {
+    .secttwo{
+        display: none;
+    }
+    .sectthree{
+        display: none;
+    }
+    .sectsix{
+        display: none;
+    }
+    .sectseven{
+        display: none;
+    }
+    .secteight{
+        display: none;
+    }
+    .sectnine{
+        display: none;
+    }
+    .sectten{
+        display: none;
+    }
+    .secteleven{
+        display: none;
+    }
+    .secttwelve{
+        display: none;
+    }
+    .middle{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        grid-template-rows: 70px 150px 400px 70px 70px 70px 70px;
+    }
+    .heading{
+        font-size: 3.2vw;
+    }
+}

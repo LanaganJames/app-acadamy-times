@@ -1,0 +1,63 @@
+.bottom-head{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px) fit-content(100px);
+    font-size: 12px;
+    width: 80%;
+    margin: auto;
+}
+.world{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.swe-online{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.san-fransisco{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.new-york{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.jumpstart{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.online{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.marketing{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.sales{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.talentmatch{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.alumni{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}
+.all{
+    margin-right: 10px;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,120 @@
+.masthead{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 40px 15px 60px;
+    border-bottom: #bfbfbf solid 1px;
+    padding-bottom: 20px;
+}
+
+.masthead__menu-and-search{
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding-left: 20px;
+}
+#bars{
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#bars:hover{
+    cursor: pointer;
+    background-color: #f7f7f5;
+}
+#search{
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#search:hover{
+    cursor: pointer;
+    background-color: #f7f7f5;
+}
+.masthead__actions{
+    grid-column: 3;
+    grid-row: 1;
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-start;
+}
+#cog{
+    font-size: 11px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+#cog:hover{
+    cursor: pointer;
+    background-color: #f7f7f5;
+}
+.masthead__technologies{
+    display: flex;
+    justify-content: center;
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    border-bottom:#bfbfbf solid 1px;
+
+}
+.css{
+    text-transform: capitalize;
+    font-size: 10px;
+    color:#6f6f6f;
+    margin: 10px;
+    justify-self: center;
+}
+.html{
+    text-transform: capitalize;
+    font-size: 10px;
+    color:#6f6f6f;
+    margin: 10px;
+    justify-self: center;
+}
+.java{
+    text-transform: capitalize;
+    font-size: 10px;
+    color:#6f6f6f;
+    margin: 10px;
+    justify-self: center;
+}
+.python{
+    text-transform: capitalize;
+    font-size: 10px;
+    color:#6f6f6f;
+    margin: 10px;
+    justify-self: center;
+}
+.masthead__date{
+    grid-column: 1;
+    grid-row: 3;
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-end;
+    height: 11px;
+}
+.masthead__logo{
+    grid-column: 2;
+    grid-row: 3;
+    height: 11px;
+}
+.logo{
+    text-align: center;
+    padding-top: 10px;
+}
+.masthead__paper{
+    grid-column: 3;
+    grid-row: 3;
+    display: flex;
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+#paper{
+    height: 11px;
+}
